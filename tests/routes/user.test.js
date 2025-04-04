@@ -5,8 +5,8 @@ let authToken;
 
 beforeAll(async () => {
   const res = await request(app).post('/api/v1/auth/login').send({
-    email: 'admin@convegenius.ai',
-    password: 'Test@123',
+    email: 'admin@example.com',
+    password: 'Password@123',
   });
   authToken = res.body.data?.token?.access?.token;
 });

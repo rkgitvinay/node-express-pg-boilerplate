@@ -17,13 +17,13 @@ exports.seed = async function (knex) {
   ]);
 
   // Hash password
-  const passwordHash = await bcrypt.hash('Test@123', 10);
+  const passwordHash = await bcrypt.hash('Password@123', 10);
 
   // Seed admin user
   await knex('users').insert([
     {
       name: 'Admin',
-      email: 'admin@convegenius.ai',
+      email: 'admin@example.com',
       password: passwordHash,
       role_id: 1,
     },
