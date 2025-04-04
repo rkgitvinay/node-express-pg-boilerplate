@@ -1,6 +1,13 @@
-# RESTful Node Server Boilerplate
+# 🚀 RESTful Node.js Express + PostgreSQL API Boilerplate
 
-A boilerplate/starter project for quickly building RESTful APIs using Node.js, Express, and Postgres.
+A modern boilerplate/starter project to kickstart your backend APIs using **Node.js**, **Express.js**, **PostgreSQL**, **Objection.js**, and **Knex.js**.  
+Built for scalability, security, and productivity. Ideal for RESTful API development with JWT Auth, Swagger Docs, Docker, and a clean project structure.
+
+![Stars](https://img.shields.io/github/stars/rkgitvinay/node-express-pg-boilerplate?style=social)
+![Forks](https://img.shields.io/github/forks/rkgitvinay/node-express-pg-boilerplate?style=social)
+![License](https://img.shields.io/github/license/rkgitvinay/node-express-pg-boilerplate)
+![Issues](https://img.shields.io/github/issues/rkgitvinay/node-express-pg-boilerplate)
+
 
 ## Manual Installation
 
@@ -30,21 +37,16 @@ cp .env.example .env
 
 ## Features
 
-- **SQL database**: [Postgres](https://www.postgresql.org/) object data modeling using [Knexjs](https://knexjs.org) and [Objection.js](https://vincit.github.io/objection.js/)
-- **Authentication and authorization**: using [passport](http://www.passportjs.org)
-- **Validation**: request data validation using [Joi](https://github.com/hapijs/joi)
-- **Logging**: using [winston](https://github.com/winstonjs/winston)
-- **Testing**: unit and integration tests using [Jest](https://jestjs.io)
-- **Error handling**: centralized error handling mechanism
-- **API documentation**: with [swagger-jsdoc](https://github.com/Surnet/swagger-jsdoc) and [swagger-ui-express](https://github.com/scottie1984/swagger-ui-express)
-- **Process management**: advanced production process management using [PM2](https://pm2.keymetrics.io)
-- **Environment variables**: using [dotenv](https://github.com/motdotla/dotenv) and [cross-env](https://github.com/kentcdodds/cross-env#readme)
-- **Security**: set security HTTP headers using [helmet](https://helmetjs.github.io)
-- **Santizing**: sanitize request data against xss and query injection
-- **CORS**: Cross-Origin Resource-Sharing enabled using [cors](https://github.com/expressjs/cors)
-- **Compression**: gzip compression with [compression](https://github.com/expressjs/compression)
-
-- **Docker support**
+- 🛠 **Node + Express** setup
+- 🗃️ **PostgreSQL** with **Knex.js** & **Objection.js**
+- 🔐 **JWT-based Authentication** (with Passport.js)
+- ✅ **Request Validation** using Joi
+- 📊 **Swagger API Docs** at `/v1/docs`
+- 🧪 **Jest** for Unit & Integration Testing
+- 🛡️ Helmet, CORS, Input Sanitization for **Security**
+- 🐳 **Docker support** for seamless deployment
+- 📂 Modular and scalable **Project Structure**
+- 📦 Environment management with `.env`
 
 ## Commands
 
